@@ -1,0 +1,14 @@
+[
+    {
+        "user": "SumDude",
+        "password": "basic",
+        "postIDs": [1],
+        "groupIDs": [0, 1]
+    },
+    {
+        "user": "OtherDude",
+        "password": "boogaloo",
+        "postIDs": [0],
+        "groupIDs": [1]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "Greatest Recommendations",
+        "users": ["SumDude"],
+        "postIDs": []
+    },
+    {
+        "id": 1,
+        "name": "Movie Gods",
+        "users": ["SumDude", "OtherDude"],
+        "postIDs": [1]
+    }
+]

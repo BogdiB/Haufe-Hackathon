@@ -24,11 +24,13 @@ export class AppComponent {
   posts: PostData[] = [];
   // pages start from 1
   numberOfPages: number;
-  paginated: number = 10;
+  paginated: number = 3;
   currentPage: number = 1;
 
   constructor() {
-    this.posts = getRecentPosts(1, 10);
+    getRecentPosts(1, 3).then((response: PostData[] | void) => {
+      this.posts = response instanceof Object ? response : [];
+    });
     this.numberOfPages = getNumberOfPages(this.paginated);
   }
 }

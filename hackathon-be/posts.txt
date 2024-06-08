@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "user": "OtherDude",
+        "movieID": 1,
+        "review": "Decent enough",
+        "rating": 3,
+        "groupID": null
+    },
+    {
+        "id": 1,
+        "user": "SumDude",
+        "movieID": 3,
+        "review": "Could be better",
+        "rating": 2.5,
+        "groupID": 1
+    },
+    {
+        "id": 2,
+        "user": "OtherDude",
+        "movieID": 0,
+        "review": "Best movie I've seen in decades.",
+        "rating": 5,
+        "groupID": null
+    }
+]

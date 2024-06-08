@@ -1,3 +1,26 @@
 [
-    
+    {
+        "id": 0,
+        "title": "Mayor of Kingstown",
+        "googleImageLink": "https://upload.wikimedia.org/wikipedia/en/4/4e/Mayor_of_Kingstown_poster.jpg",
+        "imdbLink": "https://www.imdb.com/title/tt11712058/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_mayor%2520of%2520k"
+    },
+    {
+        "id": 1,
+        "title": "The King",
+        "googleImageLink": "https://m.media-amazon.com/images/M/MV5BMWZkNzNlMzMtMjM5ZS00MWYzLWFmMmUtMjE1ODM3NjBlODA5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "imdbLink": "https://www.imdb.com/title/tt7984766/"
+    },
+    {
+        "id": 2,
+        "title": "Die Hart",
+        "googleImageLink": "https://m.media-amazon.com/images/M/MV5BMTVhN2I0MTYtYzJjZS00MzRjLTliYmEtNTExNmFjZjA5YTU0XkEyXkFqcGdeQXVyMzM1OTgxMDc@._V1_.jpg",
+        "imdbLink": "https://www.imdb.com/title/tt27116016/"
+    },
+    {
+        "id": 3,
+        "title": "Bionic",
+        "googleImageLink": "https://resizing.flixster.com/ttJO9-6VgUpuq9s7aZe9K9sYseQ=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27284135_v_v10_aa.jpg",
+        "imdbLink": "https://www.imdb.com/title/tt16427902/"
+    }
 ]
