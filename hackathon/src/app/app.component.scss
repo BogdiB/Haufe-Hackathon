@@ -1,0 +1,23 @@
+.main {
+    margin: 1rem;
+}
+
+.group-buttons {
+    button {
+        background-color: cadetblue;
+        margin: 0rem 0.5rem; // vertical, horizontal
+        padding: 0.2rem 0.4rem;
+        
+        border-style: solid;
+        border-radius: 0rem;
+        border-color: hsl(182, 25%, 40%);
+
+        &:hover {
+            background-color: hsl(182, 50%, 60%);
+        }
+
+        &:active {
+            background-color: hsl(182, 25%, 45%);
+        }
+    }
+}
