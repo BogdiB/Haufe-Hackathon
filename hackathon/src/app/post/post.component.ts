@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { PostData } from '../data/post-data';
 
 @Component({
   selector: 'app-post',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './post.component.scss'
 })
 export class PostComponent {
-
+  @Input({ required: true }) data!: PostData;
 }

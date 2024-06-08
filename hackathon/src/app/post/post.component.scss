@@ -1,0 +1,30 @@
+.post {
+    display: flex;
+
+    img {
+        max-height: 15rem;
+    }
+
+    &-info {
+        margin: 0.3rem 0.7rem;
+
+        p {
+            padding: 0.6rem 0.5rem;
+
+            &#rating {
+                padding: 0.3rem 0.5rem;
+                cursor: default;
+            }
+            
+            &#user {
+                padding: 0rem 0rem;
+                margin: 0rem 0.3rem;
+
+                font-style: italic;
+                font-size: 12px;
+
+                cursor: default;
+            }
+        }
+    }
+}

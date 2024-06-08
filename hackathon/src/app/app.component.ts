@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { PostComponent } from './post/post.component';
 import { PostData } from './data/post-data';
 import { getRecentPosts, getNumberOfPages } from './services/backend.service';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { getRecentPosts, getNumberOfPages } from './services/backend.service';
   imports: [
     RouterOutlet,
     HeaderComponent,
-    PostComponent
+    PostComponent,
+    NgFor
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
@@ -20,8 +22,10 @@ export class AppComponent {
   title = 'hackathon';
 
   posts: PostData[] = [];
+  // pages start from 1
   numberOfPages: number;
   paginated: number = 10;
+  currentPage: number = 1;
 
   constructor() {
     this.posts = getRecentPosts(1, 10);

@@ -21,3 +21,29 @@
         }
     }
 }
+
+.posts {
+    background-color: hsl(0, 0%, 70%);
+    border: solid 0.1rem;
+    border-color: hsl(0, 0%, 25%);
+
+    margin: 0.7rem;
+    padding: 1rem;
+}
+
+.page-numbers {
+    display: flex;
+    margin: 0.7rem 0rem;
+    justify-content: center; // horizontal align
+    align-items: center; // vertical align
+    cursor: default;
+
+    button {
+        // cursor gets overridden
+        background-color: inherit;
+        border: none;
+        
+        margin: 0.1rem;
+        padding: 0rem;
+    }
+}

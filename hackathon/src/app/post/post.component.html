@@ -1,1 +1,9 @@
-<p>post works!</p>
+<div class="post">
+    <img src="{{ data.movie.googleImageLink }}" />
+    <div class="post-info">
+        <h3><a href="{{ data.movie.imdbLink }}">{{ data.movie.title }}</a></h3>
+        <p id="user">Review: {{ data.user }}</p>
+        <p>{{ data.review }}</p>
+        <p id="rating">Personal Rating: <b style="color: hsl(51, 75%, 50%);">{{ data.rating + " / 5" }}</b></p>
+    </div>
+</div>

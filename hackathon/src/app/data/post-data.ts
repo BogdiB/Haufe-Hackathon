@@ -1,6 +1,8 @@
+import { MovieData } from "./movie-data"
+
 export interface PostData {
     user: String,
-    imdbLink: String,
+    movie: MovieData,
     review: String,
     rating: number
 }
